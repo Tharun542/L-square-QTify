@@ -1,12 +1,9 @@
 .button{
-    background-color:black;
-  color: #34C94B; 
-  font-family: "Poppins", sans-serif;
-  padding: 10px 16px;
-  border-radius: 8px;
-  border: none;
-  cursor: pointer;
-  font-size: 14px;
+    background-color: var(--color-black);
+    color: var(--color-green);
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
 }
 
 .button :hover{

@@ -12,7 +12,7 @@ const Navbar =()=>{
         
         <Logo />
         <Search />
-        <Button />
+        <Button text="Give Feedback"/>
         </div>
         
     )

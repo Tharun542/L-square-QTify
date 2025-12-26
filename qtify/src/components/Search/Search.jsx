@@ -8,7 +8,7 @@ const Search=()=>{
              
             <input type="text"
             className="search"
-            placeholder="search a album of your choice" />
+            placeholder="Search a album of your choice" />
             <SearchIcon className="search-icon" />
         </div>
         

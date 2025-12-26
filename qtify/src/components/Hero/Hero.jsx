@@ -1,6 +1,6 @@
 import React from "react";
 import "./Hero.css";
-import headphone from "../../assests/headphone.svg";
+import headphone from "../../assets/headphone.svg";
 
 const Hero =()=>{
     return (

@@ -6,6 +6,6 @@
     font-family: 'Poppins', sans-serif;
 }
 
-.button :hover{
+.button:hover{
   cursor: pointer;
 }

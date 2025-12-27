@@ -1,0 +1,23 @@
+.carousel-container {
+  position: relative;
+}
+
+.custom-nav {
+  position: absolute;
+  top: 40%;
+  z-index: 10;
+  cursor: pointer;
+}
+
+.swiper-button-prev {
+  left: -32px;
+}
+
+.swiper-button-next {
+  right: -32px;
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  display: none;
+}

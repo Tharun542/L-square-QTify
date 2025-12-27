@@ -7,6 +7,7 @@
 .card-image-container{
     position: relative;
     overflow: hidden;
+    border-radius: 20px;
 }
 
 .card-chip{
@@ -25,7 +26,7 @@
     width: 100%;
     object-fit: cover;
     display: block;
-    border-radius: 20px;
+    
    
     
 }

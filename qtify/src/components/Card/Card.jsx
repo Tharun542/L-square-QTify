@@ -8,10 +8,10 @@ const Card=({image, title, follows})=>{
         <div className="card">
            <div className="card-image-container">
             <img src={image} alt={title} className="card-image" />
-            <Chip className="card-chip" label={follows}/>
+            <Chip label={follows} className="card-chip"/>
            </div>
            <div className="album-title">
-            <p className="album-name">{title}</p>
+           {title}
            </div>
         </div>
     )

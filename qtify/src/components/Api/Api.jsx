@@ -2,11 +2,17 @@
 import axios from "axios";
 
 
-const FetchTopAlbums=async ()=>{
+export const FetchTopAlbums=async ()=>{
     const url = await axios.get("https://qtify-backend.labs.crio.do/albums/top")
     const data = url.data;
     return data;
 }
 
-export default FetchTopAlbums;
+export const FetchNewAlbums =async()=>{
+    const url = await axios.get("https://qtify-backend.labs.crio.do/albums/new")
+    const data = url.data;
+    return data;
+}
+
+
 

@@ -1,19 +1,18 @@
 import React, { useEffect, useState } from "react";
 import "./Section.css";
-import FetchTopAlbums from "../Api/Api";
 import Card from "../Card/Card"
 
- const Section=()=>{
+ const Section=({title, fetchData})=>{
   const [topAlbums, setTopAlbums] = useState([]);
 
   useEffect(()=>{
-    FetchTopAlbums().then((data)=>{setTopAlbums(data)})
-  },[])
+    fetchData().then((data)=>{setTopAlbums(data)})
+  },[fetchData])
 
   return(
     <div className="section">
         <div className="section1">
-            <h1 className="top">Top Albums</h1>
+            <h1 className="top">{title}</h1>
             <button className="btn">Collapse</button>
         </div>
         <div className="albums">

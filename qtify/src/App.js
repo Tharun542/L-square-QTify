@@ -5,6 +5,7 @@ import Hero from "./components/Hero/Hero";
 import Card from "./components/Card/Card";
 import Section from "./components/Section/Section"
 import { FetchNewAlbums, FetchTopAlbums } from './components/Api/Api';
+import SongSection from "./components/Songs/Songs";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
    <Card />
    <Section title="Top Albums" fetchData={FetchTopAlbums} />
    <Section title="New Albums" fetchData={FetchNewAlbums}/>
+   <SongSection />
    </>
   );
 }
